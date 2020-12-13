@@ -1,0 +1,422 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.xxx{
+ 	margin: 10px;
+ 	height: 40px;
+    width: 70%;
+ 	background-color: green;
+ }
+
+ .row .search-container {
+  width: 52%;
+  margin-left: 10%;
+  height: 60px;
+}
+
+.search_box_1{
+	width: 100%;
+	margin-top: 10px;
+	background-color: #990033;
+	float: left;
+	height: 40px;
+}
+
+.ico{
+	height: 50px
+	width:50px;
+	float: right;
+}
+.img_icon{
+	height: 22px; 
+	width: 22px; 
+	margin:10px;
+	float: right;
+	/*position: absolute;*/
+}
+
+
+.search_box_1 input[type=text] {
+  background-color: #990033;
+  padding: 5px;
+  /*margin-top: 8px;*/
+  font-size: 17px;
+  border: none;
+  width: 539px;
+  height: 30px;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  /*width: 33.33%;*/
+  /*padding: 10px;*/
+  
+  height: 60px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+/*@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}*/
+
+.row_temp {
+  position: relative;
+  font-family: Arial;
+}
+
+
+/*###############################container_Body ####################################*/
+
+
+
+.row_temp  .img{
+	background-color: rgba(248, 247, 216, 0.7);
+	top: 0;
+  /*background-position: center;*/
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  float: left;
+  width: 100%;
+  margin: : 0px;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+   /* Should be removed. Only for demonstration */
+}
+
+
+.img_2{
+	/*background-image: url(images/PEAK_PNG.png);*/
+	height: 80%; 
+	width: 33%;
+	position:absolute;
+      top: 17px;
+      right: 25px;
+      z-index: 2;
+}
+
+
+.text-block {
+	float: left;
+  position: absolute;
+  /*bottom: 160px;*/
+  margin-top: 40px;
+  width: 50%;
+  /*right: 20px;*/
+  /*background-color: black;*/
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Clear floats after the columns */
+.row_temp:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+.search_box_1{
+	/*width: 400px;*/
+	/*margin-top: 10px;
+	background-color: #990033;
+	float: left;
+	height: 40px;*/
+}
+
+.search_box_2{
+	/*width: 30px;*/
+	/*margin-top: 10px;
+	background-color: #990033;
+	float: left;
+	height: 40px;*/
+}
+/*########################################################*/
+.row_{
+	/*margin-right: 30px;*/
+    /*margin-left: 30px;*/
+	height: 200px;
+}
+.column_1 {
+
+  float: left;
+  width: 33.33%;
+  /*padding: 10px;*/
+  /*height: 100px;  Should be removed. Only for demonstration */
+}
+
+.column_2{
+    /*margin-top: 40px;*/
+	float: left;
+	width: 33.33%;
+}
+
+.box {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border: 10px solid white;
+	position: relative;
+	top: -50px;
+	/*margin-top: -50px;*/
+	/*margin-left: 30px;*/
+	margin: auto;
+	height: 150px;
+	width: 295px;
+	background-color: green;
+	/*margin: auto;*/
+}
+
+
+/*################################### Media with 400px #############################*/
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media only screen and (max-width:600px) {
+
+.row .search-container {
+  width: 90%;
+  margin-left: 3%;
+  height: 60px;
+}
+
+.row_{
+	/*margin-right: 30px;*/
+    /*margin-left: 30px;*/
+	height: 200px;
+	margin-top: 80px;
+
+}
+.column_1 {
+  margin-bottom: 15px;
+  /*float: left;*/
+  width: 100%;
+  /*padding: 10px;*/
+  /*height: 100px;  Should be removed. Only for demonstration */
+}
+
+.column_2{
+    /*margin-top: 40px;*/
+	/*float: left;*/
+	width: 100%;
+}
+
+.box{
+	border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+position: relative;
+border: 10px solid green;
+/*top: -50px;*/
+/*margin-top: -50px;*/
+/*margin-left: 30px;*/
+margin: auto;
+height: 30px;
+width: 300px;
+background-color: green;
+}
+
+.text-block {
+	font-size: 10px;
+	float: left;
+  position: absolute;
+  /*bottom: 60px;*/
+  width: 50%;
+  /*right: 20px;*/
+  /*background-color: black;*/
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.row_temp  .img{
+ 
+   height: 400px; 
+ width: 100%;
+    /* height of container */
+    object-fit: cover;
+    /*border: 5px solid black;*/
+}
+
+
+.img_2{
+	/*background-image: url(images/PEAK_PNG.png);*/
+	    height: 57%;
+    width: 83%;
+    position: absolute;
+    top: 224px;
+    right: 33px;
+    z-index: 2;
+
+}
+
+.text-block {
+    
+    width: 90%;
+    
+}
+
+.row_ {  
+    margin-top: 110px;
+}
+
+.xxx {
+    width: 80%;
+}
+
+.box_1{
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+position: relative;
+border: 10px solid green;
+top: -50px;
+/*margin-top: -50px;*/
+/*margin-left: 30px;*/
+margin: auto;
+height: 30px;
+width: 300px;
+background-color: green;
+}
+  /*.column_temp {
+    width: 100%;
+  }*/
+}
+ 
+
+/*#############################################################*/
+/*################################### Media with 600px #############################*/
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media only screen and (min-width:601px) and (max-width:1025px) {
+
+.row .search-container {
+  width: 50%;
+  margin-left: 3%;
+  height: 60px;
+}
+
+
+  
+}
+ 
+
+/*#############################################################*/
+/*#######################################################################3*/
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media only screen and (max-width:1027px) and (min-width: 600px) {
+
+.row .search-container {
+  width: 70%;
+  margin-left: 5%;
+  height: 60px;
+}
+	.xxx{
+ 	margin: 10px;
+ 	height: 40px;
+    width: 90%;
+ 	background-color: green;
+ }
+
+.text-block {
+	font-size: 12px;
+	float: left;
+  position: absolute;
+  /*bottom: 60px;*/
+  width: 50%;
+  /*right: 20px;*/
+  /*background-color: black;*/
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+	.row_{
+
+	height: 500px;
+}
+
+  .column_1 {
+  	margin: auto;
+  	float: left;
+    width: 50%;
+  }
+
+  .column_2{
+  	margin-top:50px;
+  	/*float:right;*/
+  	width: 100%;
+  }
+
+  .box {
+	border: 10px solid white;
+	position: relative;
+	top: 60px;
+	margin: auto;
+	/*margin-left: 30px;*/
+	height: 160px;
+	width: 300px;
+	background-color: green;
+	/*margin: auto;*/
+}
+
+.img_2{
+	height: 85%; 
+	width: 40%;
+	position:absolute;
+      top: 90px;
+      right: 25px;
+      z-index: 2;
+}
+}
+
+
+
+
+
+
+
+.footer{
+  background-color:  #383838;
+  /*height: 300px;*/
+  color: white;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.column_footer {
+  float: left;
+  width: 50%;
+  /*padding: 10px;*/
+  height: 200px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column_footer {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
